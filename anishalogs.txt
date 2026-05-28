@@ -1,0 +1,274 @@
+[28-May-26 18:26:54 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[28-May-26 18:27:02 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[28-May-26 18:27:03 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[28-May-26 18:27:05 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[28-May-26 18:27:05 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[28-May-26 18:27:05 - INFO] - AnishaMusic - [Logger] Activity logger initialized → channel -1003928121906
+[28-May-26 18:27:05 - INFO] - AnishaMusic - [ErrorReporter] Initialized → owner 5988157836
+[28-May-26 18:27:05 - INFO] - AnishaMusic - [•] Loading Modules...
+[28-May-26 18:27:06 - INFO] - AnishaMusic - [•] Loaded 31 Modules.
+[28-May-26 18:27:06 - INFO] - AnishaMusic - [•] Refreshing Directories...
+[28-May-26 18:27:06 - INFO] - AnishaMusic - [•] Directories Refreshed.
+[28-May-26 18:27:06 - INFO] - AnishaMusic - [•] Bot Started As 𝑨𝒏𝒊𝒔𝒉𝒂❣️.
+[28-May-26 18:27:06 - INFO] - AnishaMusic - [•] Assistant Started As ⏤‌‌‌‌🇹 𝗦𝗕➣ Cazador .
+[28-May-26 18:27:06 - INFO] - AnishaMusic - [•] Starting PyTgCalls Client...
+[28-May-26 18:27:06 - INFO] - AnishaMusic - [•] Bot is now READY and listening for commands!
+[28-May-26 18:27:06 - INFO] - AnishaMusic - [•] Assistant auto-leave background task started.
+[28-May-26 18:27:16 - INFO] - AnishaMusic - [•] Starting group startup notifications...
+[28-May-26 18:27:21 - INFO] - AnishaMusic - [•] Startup notifications complete. Sent: 2, Failed: 2
+[28-May-26 18:27:36 - INFO] - AnishaMusic - [•] Scheduled restart task started (target: 05:30 AM IST / 00:00 UTC daily).
+[28-May-26 18:27:36 - INFO] - AnishaMusic - [•] Next scheduled restart in 19943s (5h 32m)
+[28-May-26 18:29:43 - ERROR] - AnishaMusic - Anisha Music Bot Stopped.
+[28-May-26 18:29:45 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[28-May-26 18:29:54 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[28-May-26 18:29:56 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[28-May-26 18:29:57 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[28-May-26 18:29:57 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[28-May-26 18:29:57 - INFO] - AnishaMusic - [Logger] Activity logger initialized → channel -1003928121906
+[28-May-26 18:29:57 - INFO] - AnishaMusic - [ErrorReporter] Initialized → owner 5988157836
+[28-May-26 18:29:57 - INFO] - AnishaMusic - [•] Loading Modules...
+[28-May-26 18:29:57 - INFO] - AnishaMusic - [•] Loaded 31 Modules.
+[28-May-26 18:29:57 - INFO] - AnishaMusic - [•] Refreshing Directories...
+[28-May-26 18:29:57 - INFO] - AnishaMusic - [•] Directories Refreshed.
+[28-May-26 18:29:58 - INFO] - AnishaMusic - [•] Bot Started As 𝑨𝒏𝒊𝒔𝒉𝒂❣️.
+[28-May-26 18:29:58 - INFO] - AnishaMusic - [•] Assistant Started As ⏤‌‌‌‌🇹 𝗦𝗕➣ Cazador .
+[28-May-26 18:29:58 - INFO] - AnishaMusic - [•] Starting PyTgCalls Client...
+[28-May-26 18:29:59 - INFO] - AnishaMusic - [•] Bot is now READY and listening for commands!
+[28-May-26 18:29:59 - INFO] - AnishaMusic - [•] Assistant auto-leave background task started.
+[28-May-26 18:30:09 - INFO] - AnishaMusic - [•] Starting group startup notifications...
+[28-May-26 18:30:13 - INFO] - AnishaMusic - [•] Startup notifications complete. Sent: 2, Failed: 2
+[28-May-26 18:30:19 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=tkPAJPgWNr0
+[28-May-26 18:30:20 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube] tkPAJPgWNr0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 18:30:20 - WARNING] - AnishaMusic - Download failed for query search result tkPAJPgWNr0: ERROR: [youtube] tkPAJPgWNr0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 18:30:20 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=L7vs1cRVLLI
+[28-May-26 18:30:21 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube] L7vs1cRVLLI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 18:30:21 - WARNING] - AnishaMusic - Download failed for query search result L7vs1cRVLLI: ERROR: [youtube] L7vs1cRVLLI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 18:30:21 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=LJD9O3NtR7E
+[28-May-26 18:30:22 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube] LJD9O3NtR7E: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 18:30:22 - WARNING] - AnishaMusic - Download failed for query search result LJD9O3NtR7E: ERROR: [youtube] LJD9O3NtR7E: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 18:30:22 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=9BD7HkqQrmg
+[28-May-26 18:30:23 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube] 9BD7HkqQrmg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 18:30:23 - WARNING] - AnishaMusic - Download failed for query search result 9BD7HkqQrmg: ERROR: [youtube] 9BD7HkqQrmg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 18:30:23 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=HwUT8bLwykw
+[28-May-26 18:30:23 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube] HwUT8bLwykw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 18:30:23 - WARNING] - AnishaMusic - Download failed for query search result HwUT8bLwykw: ERROR: [youtube] HwUT8bLwykw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 18:30:29 - INFO] - AnishaMusic - [•] Scheduled restart task started (target: 05:30 AM IST / 00:00 UTC daily).
+[28-May-26 18:30:29 - INFO] - AnishaMusic - [•] Next scheduled restart in 19770s (5h 29m)
+[28-May-26 18:30:31 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 18:30:31 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2058299718,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 18:31:02 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 18:31:02 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2058299718,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 18:33:36 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 18:33:36 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -907530619,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 18:58:37 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[28-May-26 18:58:46 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[28-May-26 18:58:49 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[28-May-26 18:58:51 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[28-May-26 18:58:51 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[28-May-26 19:00:41 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[28-May-26 19:00:51 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[28-May-26 19:00:54 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[28-May-26 19:00:55 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[28-May-26 19:00:55 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[28-May-26 19:02:16 - ERROR] - AnishaMusic - Anisha Music Bot Stopped.
+[28-May-26 19:02:18 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[28-May-26 19:02:25 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[28-May-26 19:02:27 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[28-May-26 19:02:28 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[28-May-26 19:02:28 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[28-May-26 19:02:28 - INFO] - AnishaMusic - [Logger] Activity logger initialized → channel -1003928121906
+[28-May-26 19:02:28 - INFO] - AnishaMusic - [ErrorReporter] Initialized → owner 5988157836
+[28-May-26 19:02:28 - INFO] - AnishaMusic - [•] Loading Modules...
+[28-May-26 19:02:29 - INFO] - AnishaMusic - [•] Loaded 31 Modules.
+[28-May-26 19:02:29 - INFO] - AnishaMusic - [•] Refreshing Directories...
+[28-May-26 19:02:29 - INFO] - AnishaMusic - [•] Directories Refreshed.
+[28-May-26 19:02:29 - INFO] - AnishaMusic - [•] Bot Started As 𝑨𝒏𝒊𝒔𝒉𝒂❣️.
+[28-May-26 19:02:29 - INFO] - AnishaMusic - [•] Assistant Started As ⏤‌‌‌‌🇹 𝗦𝗕➣ Cazador .
+[28-May-26 19:02:29 - INFO] - AnishaMusic - [•] Starting PyTgCalls Client...
+[28-May-26 19:02:30 - INFO] - AnishaMusic - [•] Bot is now READY and listening for commands!
+[28-May-26 19:02:30 - INFO] - AnishaMusic - [•] Assistant auto-leave background task started.
+[28-May-26 19:02:40 - INFO] - AnishaMusic - [•] Starting group startup notifications...
+[28-May-26 19:02:44 - INFO] - AnishaMusic - [•] Startup notifications complete. Sent: 2, Failed: 2
+[28-May-26 19:02:46 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=tkPAJPgWNr0
+[28-May-26 19:02:46 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=tkPAJPgWNr0
+[28-May-26 19:02:47 - INFO] - AnishaMusic - [Saavn] Downloading: Https
+[28-May-26 19:02:47 - INFO] - AnishaMusic - [Saavn] Downloaded: downloads/saavn__ktwvYmU.mp4
+[28-May-26 19:02:48 - DEBUG] - pytgcalls - FullChat cache miss for -1003882113270
+[28-May-26 19:02:49 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:02:49 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[28-May-26 19:02:52 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:02:52 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1047644511,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:03:00 - INFO] - AnishaMusic - [•] Scheduled restart task started (target: 05:30 AM IST / 00:00 UTC daily).
+[28-May-26 19:03:00 - INFO] - AnishaMusic - [•] Next scheduled restart in 17819s (4h 56m)
+[28-May-26 19:03:28 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:03:28 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 704462043,
+        "user_id": 5730500638,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:03:29 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:03:29 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 704462043,
+        "user_id": 5730500638,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:06:31 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:06:31 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1047644511,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:06:54 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:06:54 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1144241086,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}

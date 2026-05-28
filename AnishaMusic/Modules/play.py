@@ -51,7 +51,7 @@ from AnishaMusic import (
     pytgcalls,
 )
 from AnishaMusic.Helpers.active import add_active_chat, is_active_chat, stream_on, currently_playing
-from AnishaMusic.Helpers.downloaders import audio_dl, video_dl
+from AnishaMusic.Helpers.downloaders import audio_dl, video_dl, saavn_or_youtube
 from AnishaMusic.Helpers.errors import DurationLimitError
 from AnishaMusic.Helpers.gets import get_file_name, get_url
 from AnishaMusic.Helpers.inline import buttons
@@ -233,7 +233,7 @@ async def play(_, message: Message):
                         if (dur / 60) > DURATION_LIMIT:
                             continue
 
-                        file_path = await video_dl(url) if stream_type == "video" else await audio_dl(url)
+                        file_path = await video_dl(url) if stream_type == "video" else await saavn_or_youtube(url)
                         if file_path:
                             break
                     except Exception as e:
@@ -282,7 +282,7 @@ async def play(_, message: Message):
                         if (dur / 60) > DURATION_LIMIT:
                             continue
 
-                        file_path = await video_dl(url) if stream_type == "video" else await audio_dl(url)
+                        file_path = await video_dl(url) if stream_type == "video" else await saavn_or_youtube(url)
                         if file_path:
                             break
                     except Exception as e:
@@ -384,7 +384,7 @@ async def play(_, message: Message):
                 return await anisha.edit_text(
                     f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ ᴏɴ {BOT_NAME}."
                 )
-            file_path = await video_dl(url) if stream_type == "video" else await audio_dl(url)
+            file_path = await video_dl(url) if stream_type == "video" else await saavn_or_youtube(url)
 
     else:
         if len(message.command) < 2:
@@ -422,7 +422,7 @@ async def play(_, message: Message):
                 if (dur / 60) > DURATION_LIMIT:
                     continue
 
-                file_path = await video_dl(url) if stream_type == "video" else await audio_dl(url)
+                file_path = await video_dl(url) if stream_type == "video" else await saavn_or_youtube(url)
                 if file_path:
                     break
             except Exception as e:

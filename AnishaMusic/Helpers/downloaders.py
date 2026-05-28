@@ -41,6 +41,7 @@ _common_opts = {
     "ffmpeg_location": _project_root,
     "noplaylist": True,
     "extractor_retries": 3,
+    "cookiefile": "/home/MusicBot/cookies.txt",
     "retries": 3,
     "socket_timeout": 15,
 }
@@ -183,3 +184,16 @@ def _resolve_and_download(title: str, videoid: str, stream_type: str):
 
 async def resolve_and_download(title: str, videoid: str, stream_type: str):
     return await asyncio.to_thread(_resolve_and_download, title, videoid, stream_type)
+
+async def saavn_or_youtube(query: str, videoid: str = "", stream_type: str = "audio") -> str:
+    """Try JioSaavn first, fall back to YouTube if it fails."""
+    from AnishaMusic.Helpers.saavn import saavn_download
+    try:
+        LOGGER.info(f"[Downloader] Trying JioSaavn for: {query}")
+        return await saavn_download(query)
+    except Exception as e:
+        LOGGER.warning(f"[Downloader] JioSaavn failed: {e}, falling back to YouTube")
+        if videoid and len(videoid) == 11:
+            url = f"https://youtube.com/watch?v={videoid}"
+            return await audio_dl(url)
+        raise Exception(f"Both JioSaavn and YouTube failed for: {query}")
