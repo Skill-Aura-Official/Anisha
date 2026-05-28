@@ -7,3 +7,9 @@ raw_files/
 downloads/
 __pycache__/
 *.session-journal
+cookies.txt
+anishalogs.txt
+cache/
+downloads/
+*.session
+*.session-journal
