@@ -1,0 +1,140 @@
+#!/bin/bash
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# ★ ANISHA MUSIC BOT — Startup Script ★
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#
+# This script handles:
+#   1. Cleanup on every boot (downloads, cache, logs)
+#   2. Auto-restart on crash (infinite loop)
+#   3. Graceful shutdown on SIGTERM/SIGINT
+#
+# The scheduled daily restart at 5:30 AM IST (00:00 UTC)
+# is handled internally by the Python bot process itself
+# (see __main__.py → scheduled_restart task).
+#
+# Usage: bash anisha
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+set -e
+
+# Colors for pretty output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+CYAN='\033[0;36m'
+NC='\033[0m' # No Color
+
+echo -e "${CYAN}"
+echo "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
+echo "┃     ★ ANISHA MUSIC BOT ★             ┃"
+echo "┃     Startup & Auto-Restart           ┃"
+echo "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
+echo -e "${NC}"
+
+# --- Cleanup Function ---
+cleanup() {
+    echo -e "${YELLOW}[•] Running cleanup...${NC}"
+
+    # Clear downloaded music files
+    if [ -d "downloads" ]; then
+        rm -rf downloads/*
+        echo -e "${GREEN}  ✓ Cleared downloads/${NC}"
+    else
+        mkdir -p downloads
+        echo -e "${GREEN}  ✓ Created downloads/${NC}"
+    fi
+
+    # Clear thumbnail/image cache
+    if [ -d "cache" ]; then
+        rm -rf cache/*
+        echo -e "${GREEN}  ✓ Cleared cache/${NC}"
+    else
+        mkdir -p cache
+        echo -e "${GREEN}  ✓ Created cache/${NC}"
+    fi
+
+    # Rotate log file (keep last 1000 lines, truncate the rest)
+    if [ -f "anishalogs.txt" ]; then
+        tail -n 1000 anishalogs.txt > anishalogs_tmp.txt 2>/dev/null
+        mv anishalogs_tmp.txt anishalogs.txt
+        echo -e "${GREEN}  ✓ Rotated anishalogs.txt (kept last 1000 lines)${NC}"
+    fi
+
+    # Clean stale temp files in project root
+    rm -f *.webm *.jpg *.png output.txt 2>/dev/null
+    echo -e "${GREEN}  ✓ Cleaned stale temp files${NC}"
+
+    echo -e "${YELLOW}[•] Cleanup complete.${NC}"
+}
+
+# --- Graceful shutdown handler ---
+BOT_PID=0
+
+shutdown_handler() {
+    echo -e "\n${RED}[•] Received shutdown signal. Stopping bot...${NC}"
+    if [ $BOT_PID -ne 0 ]; then
+        kill -TERM $BOT_PID 2>/dev/null
+        wait $BOT_PID 2>/dev/null
+    fi
+    echo -e "${RED}[•] Bot stopped. Goodbye!${NC}"
+    exit 0
+}
+
+trap shutdown_handler SIGTERM SIGINT
+
+# --- Main Loop (auto-restart on crash) ---
+RESTART_COUNT=0
+MAX_RAPID_RESTARTS=10
+RAPID_RESTART_WINDOW=60  # seconds
+LAST_START_TIME=0
+
+echo -e "${GREEN}[•] Starting Anisha Music Bot with auto-restart...${NC}"
+
+while true; do
+    CURRENT_TIME=$(date +%s)
+
+    # Check for rapid restart loop (crash loop detection)
+    if [ $LAST_START_TIME -ne 0 ]; then
+        TIME_SINCE_LAST=$((CURRENT_TIME - LAST_START_TIME))
+        if [ $TIME_SINCE_LAST -lt $RAPID_RESTART_WINDOW ]; then
+            RESTART_COUNT=$((RESTART_COUNT + 1))
+            if [ $RESTART_COUNT -ge $MAX_RAPID_RESTARTS ]; then
+                echo -e "${RED}[!] Too many rapid restarts ($RESTART_COUNT in ${RAPID_RESTART_WINDOW}s window).${NC}"
+                echo -e "${RED}[!] Waiting 5 minutes before next attempt...${NC}"
+                sleep 300
+                RESTART_COUNT=0
+            fi
+        else
+            RESTART_COUNT=0
+        fi
+    fi
+
+    LAST_START_TIME=$CURRENT_TIME
+
+    # Run cleanup before each start
+    cleanup
+
+    echo ""
+    echo -e "${CYAN}[•] $(date '+%d-%b-%Y %H:%M:%S') — Launching bot process...${NC}"
+    echo ""
+
+    # Start the bot
+    python3 -m AnishaMusic &
+    BOT_PID=$!
+
+    # Wait for bot process to exit
+    wait $BOT_PID
+    EXIT_CODE=$?
+    BOT_PID=0
+
+    echo ""
+    echo -e "${YELLOW}[•] $(date '+%d-%b-%Y %H:%M:%S') — Bot exited with code: ${EXIT_CODE}${NC}"
+
+    if [ $EXIT_CODE -eq 0 ]; then
+        echo -e "${GREEN}[•] Clean exit. Restarting in 5 seconds...${NC}"
+        sleep 5
+    else
+        echo -e "${RED}[!] Crash detected (exit code: ${EXIT_CODE}). Restarting in 10 seconds...${NC}"
+        sleep 10
+    fi
+done
