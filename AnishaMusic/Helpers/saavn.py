@@ -93,6 +93,20 @@ def _download_saavn(query: str) -> str:
         os.remove(file_path)
         raise Exception(f"Downloaded file too small: {f_size} bytes")
 
+    # Convert to opus for pytgcalls compatibility
+    opus_path = file_path.replace('.m4a', '.opus')
+    import subprocess
+    result = subprocess.run(
+        ['ffmpeg', '-i', file_path, '-c:a', 'libopus', '-b:a', '128k', opus_path, '-y'],
+        capture_output=True, text=True
+    )
+    if result.returncode == 0 and os.path.exists(opus_path):
+        os.remove(file_path)
+        file_path = opus_path
+        LOGGER.info(f"[Saavn] Converted to opus: {file_path}")
+    else:
+        LOGGER.warning(f"[Saavn] Opus conversion failed, using m4a: {result.stderr[-200:]}")
+
     LOGGER.info(f"[Saavn] Downloaded: {file_path}")
     return file_path
 
