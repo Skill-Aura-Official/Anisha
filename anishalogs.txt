@@ -272,3 +272,2805 @@
         "volume": 100
     }
 }
+[28-May-26 19:12:02 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:12:02 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1410238919,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:12:06 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:12:06 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1410238919,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:14:31 - INFO] - AnishaMusic - [Downloader] Starting video download: https://youtube.com/watch?v=0D-yiHJSiS4
+[28-May-26 19:14:31 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:14:31 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 287168045,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:14:32 - ERROR] - AnishaMusic - [Downloader] Video download FAILED: ERROR: [youtube+GetPOT] 0D-yiHJSiS4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:14:32 - WARNING] - AnishaMusic - Download failed for query search result 0D-yiHJSiS4: ERROR: [youtube+GetPOT] 0D-yiHJSiS4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:14:32 - INFO] - AnishaMusic - [Downloader] Starting video download: https://youtube.com/watch?v=arZtTKDJok4
+[28-May-26 19:14:33 - ERROR] - AnishaMusic - [Downloader] Video download FAILED: ERROR: [youtube+GetPOT] arZtTKDJok4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:14:33 - WARNING] - AnishaMusic - Download failed for query search result arZtTKDJok4: ERROR: [youtube+GetPOT] arZtTKDJok4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:14:33 - INFO] - AnishaMusic - [Downloader] Starting video download: https://youtube.com/watch?v=eXgw8wN4OwQ
+[28-May-26 19:14:33 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:14:33 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -98907791,
+        "user_id": 8131173148,
+        "video": true,
+        "video_camera": true,
+        "video_info": {
+            "_": "SourceInfo",
+            "endpoint": "a23064a7db1c00000003ff23",
+            "sources": [
+                {
+                    "_": "SsrcGroup",
+                    "semantics": "FID",
+                    "ssrcs": [
+                        1052958619,
+                        140188892
+                    ]
+                }
+            ]
+        },
+        "volume": 100
+    }
+}
+[28-May-26 19:14:34 - ERROR] - AnishaMusic - [Downloader] Video download FAILED: ERROR: [youtube+GetPOT] eXgw8wN4OwQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:14:34 - WARNING] - AnishaMusic - Download failed for query search result eXgw8wN4OwQ: ERROR: [youtube+GetPOT] eXgw8wN4OwQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:14:34 - INFO] - AnishaMusic - [Downloader] Starting video download: https://youtube.com/watch?v=HSjDMVGnBHo
+[28-May-26 19:14:35 - ERROR] - AnishaMusic - [Downloader] Video download FAILED: ERROR: [youtube+GetPOT] HSjDMVGnBHo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:14:35 - WARNING] - AnishaMusic - Download failed for query search result HSjDMVGnBHo: ERROR: [youtube+GetPOT] HSjDMVGnBHo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:14:35 - INFO] - AnishaMusic - [Downloader] Starting video download: https://youtube.com/watch?v=r8AjazxzOU4
+[28-May-26 19:14:36 - ERROR] - AnishaMusic - [Downloader] Video download FAILED: ERROR: [youtube+GetPOT] r8AjazxzOU4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:14:36 - WARNING] - AnishaMusic - Download failed for query search result r8AjazxzOU4: ERROR: [youtube+GetPOT] r8AjazxzOU4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:14:37 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:14:37 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1490597586,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:14:40 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:14:40 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -98907791,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:15:33 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:15:33 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 287168045,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:19:00 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:19:00 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1490597586,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:19:00 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:19:00 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -98907791,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:25:31 - ERROR] - AnishaMusic - Anisha Music Bot Stopped.
+[28-May-26 19:25:33 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[28-May-26 19:25:41 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[28-May-26 19:25:44 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[28-May-26 19:25:45 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[28-May-26 19:25:45 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[28-May-26 19:25:45 - INFO] - AnishaMusic - [Logger] Activity logger initialized → channel -1003928121906
+[28-May-26 19:25:45 - INFO] - AnishaMusic - [ErrorReporter] Initialized → owner 5988157836
+[28-May-26 19:25:45 - INFO] - AnishaMusic - [•] Loading Modules...
+[28-May-26 19:25:46 - INFO] - AnishaMusic - [•] Loaded 31 Modules.
+[28-May-26 19:25:46 - INFO] - AnishaMusic - [•] Refreshing Directories...
+[28-May-26 19:25:46 - INFO] - AnishaMusic - [•] Directories Refreshed.
+[28-May-26 19:25:46 - INFO] - AnishaMusic - [•] Bot Started As 𝑨𝒏𝒊𝒔𝒉𝒂❣️.
+[28-May-26 19:25:46 - INFO] - AnishaMusic - [•] Assistant Started As ⏤‌‌‌‌🇹 𝗦𝗕➣ Cazador .
+[28-May-26 19:25:46 - INFO] - AnishaMusic - [•] Starting PyTgCalls Client...
+[28-May-26 19:25:47 - INFO] - AnishaMusic - [•] Bot is now READY and listening for commands!
+[28-May-26 19:25:47 - INFO] - AnishaMusic - [•] Assistant auto-leave background task started.
+[28-May-26 19:25:57 - INFO] - AnishaMusic - [•] Starting group startup notifications...
+[28-May-26 19:26:01 - INFO] - AnishaMusic - [•] Startup notifications complete. Sent: 2, Failed: 2
+[28-May-26 19:26:17 - INFO] - AnishaMusic - [•] Scheduled restart task started (target: 05:30 AM IST / 00:00 UTC daily).
+[28-May-26 19:26:17 - INFO] - AnishaMusic - [•] Next scheduled restart in 16422s (4h 33m)
+[28-May-26 19:27:41 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=oafxkMv4xnc
+[28-May-26 19:27:41 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=oafxkMv4xnc
+[28-May-26 19:27:42 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[28-May-26 19:27:42 - DEBUG] - pytgcalls - FullChat cache miss for -1003882113270
+[28-May-26 19:27:43 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:27:43 - INFO] - AnishaMusic - [Preload] Starting background preload for Sheesha - Aakhya Mai Aakh Ghali Jo Bairan - Mitta Ror, Swara Verma in chat -1003882113270
+[28-May-26 19:27:44 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[28-May-26 19:27:44 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=aRNfSqsgrgE
+[28-May-26 19:27:45 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:27:45 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 347584676,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:27:46 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] aRNfSqsgrgE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:27:46 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=i52TYO13Nyg
+[28-May-26 19:27:47 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] i52TYO13Nyg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:27:47 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=YPJ2Pz1WA1A
+[28-May-26 19:27:48 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] YPJ2Pz1WA1A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:27:48 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=SrIOH92mEf8
+[28-May-26 19:27:49 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] SrIOH92mEf8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:27:49 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=HkmTrh6ZaSI
+[28-May-26 19:27:49 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] HkmTrh6ZaSI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:27:49 - WARNING] - AnishaMusic - [Preload] Preload failed to resolve/download: Sheesha - Aakhya Mai Aakh Ghali Jo Bairan - Mitta Ror, Swara Verma
+[28-May-26 19:29:52 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[28-May-26 19:30:01 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[28-May-26 19:30:03 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[28-May-26 19:30:05 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[28-May-26 19:30:05 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[28-May-26 19:30:20 - ERROR] - AnishaMusic - Anisha Music Bot Stopped.
+[28-May-26 19:30:21 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[28-May-26 19:30:29 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[28-May-26 19:30:31 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[28-May-26 19:30:32 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[28-May-26 19:30:32 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[28-May-26 19:30:32 - INFO] - AnishaMusic - [Logger] Activity logger initialized → channel -1003928121906
+[28-May-26 19:30:32 - INFO] - AnishaMusic - [ErrorReporter] Initialized → owner 5988157836
+[28-May-26 19:30:32 - INFO] - AnishaMusic - [•] Loading Modules...
+[28-May-26 19:30:32 - INFO] - AnishaMusic - [•] Loaded 31 Modules.
+[28-May-26 19:30:32 - INFO] - AnishaMusic - [•] Refreshing Directories...
+[28-May-26 19:30:32 - INFO] - AnishaMusic - [•] Directories Refreshed.
+[28-May-26 19:30:33 - INFO] - AnishaMusic - [•] Bot Started As 𝑨𝒏𝒊𝒔𝒉𝒂❣️.
+[28-May-26 19:30:33 - INFO] - AnishaMusic - [•] Assistant Started As ⏤‌‌‌‌🇹 𝗦𝗕➣ Cazador .
+[28-May-26 19:30:33 - INFO] - AnishaMusic - [•] Starting PyTgCalls Client...
+[28-May-26 19:30:33 - INFO] - AnishaMusic - [•] Bot is now READY and listening for commands!
+[28-May-26 19:30:33 - INFO] - AnishaMusic - [•] Assistant auto-leave background task started.
+[28-May-26 19:30:43 - INFO] - AnishaMusic - [•] Starting group startup notifications...
+[28-May-26 19:30:47 - INFO] - AnishaMusic - [•] Startup notifications complete. Sent: 2, Failed: 2
+[28-May-26 19:31:01 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=oafxkMv4xnc
+[28-May-26 19:31:01 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=oafxkMv4xnc
+[28-May-26 19:31:01 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[28-May-26 19:31:01 - DEBUG] - pytgcalls - FullChat cache miss for -1003882113270
+[28-May-26 19:31:02 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:31:02 - INFO] - AnishaMusic - [Preload] Starting background preload for Sheesha - Aakhya Mai Aakh Ghali Jo Bairan - Mitta Ror, Swara Verma in chat -1003882113270
+[28-May-26 19:31:03 - INFO] - AnishaMusic - [•] Scheduled restart task started (target: 05:30 AM IST / 00:00 UTC daily).
+[28-May-26 19:31:03 - INFO] - AnishaMusic - [•] Next scheduled restart in 16136s (4h 28m)
+[28-May-26 19:31:04 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=aRNfSqsgrgE
+[28-May-26 19:31:05 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] aRNfSqsgrgE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:31:05 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=i52TYO13Nyg
+[28-May-26 19:31:06 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] i52TYO13Nyg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:31:06 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=YPJ2Pz1WA1A
+[28-May-26 19:31:07 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] YPJ2Pz1WA1A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:31:07 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=SrIOH92mEf8
+[28-May-26 19:31:08 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] SrIOH92mEf8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:31:08 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=HkmTrh6ZaSI
+[28-May-26 19:31:09 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=aRNfSqsgrgE
+[28-May-26 19:31:09 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] HkmTrh6ZaSI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:31:09 - WARNING] - AnishaMusic - [Preload] Preload failed to resolve/download: Sheesha - Aakhya Mai Aakh Ghali Jo Bairan - Mitta Ror, Swara Verma
+[28-May-26 19:31:10 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] aRNfSqsgrgE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:31:10 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=i52TYO13Nyg
+[28-May-26 19:31:11 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] i52TYO13Nyg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:31:11 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=YPJ2Pz1WA1A
+[28-May-26 19:31:12 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] YPJ2Pz1WA1A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:31:12 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=SrIOH92mEf8
+[28-May-26 19:31:13 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] SrIOH92mEf8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:31:13 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=HkmTrh6ZaSI
+[28-May-26 19:31:14 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] HkmTrh6ZaSI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:32:00 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=oafxkMv4xnc
+[28-May-26 19:32:00 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=oafxkMv4xnc
+[28-May-26 19:32:00 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[28-May-26 19:32:01 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:32:01 - INFO] - AnishaMusic - [Preload] Starting background preload for Sheesha - Aakhya Mai Aakh Ghali Jo Bairan - Mitta Ror, Swara Verma in chat -1003882113270
+[28-May-26 19:32:02 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=aRNfSqsgrgE
+[28-May-26 19:32:03 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] aRNfSqsgrgE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:32:03 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=i52TYO13Nyg
+[28-May-26 19:32:04 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] i52TYO13Nyg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:32:04 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=YPJ2Pz1WA1A
+[28-May-26 19:32:05 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] YPJ2Pz1WA1A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:32:05 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=SrIOH92mEf8
+[28-May-26 19:32:06 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] SrIOH92mEf8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:32:06 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=HkmTrh6ZaSI
+[28-May-26 19:32:07 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] HkmTrh6ZaSI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[28-May-26 19:32:07 - WARNING] - AnishaMusic - [Preload] Preload failed to resolve/download: Sheesha - Aakhya Mai Aakh Ghali Jo Bairan - Mitta Ror, Swara Verma
+[28-May-26 19:32:47 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=tkPAJPgWNr0
+[28-May-26 19:32:47 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=tkPAJPgWNr0
+[28-May-26 19:32:47 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:32:47 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2096732779,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:32:47 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[28-May-26 19:32:48 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:32:54 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:32:54 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1599685864,
+        "user_id": 6462268875,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 197
+    }
+}
+[28-May-26 19:32:56 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:32:56 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1599685864,
+        "user_id": 6462268875,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[28-May-26 19:33:02 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:33:02 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2096732779,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 19:33:07 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[28-May-26 19:33:07 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 347584676,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[28-May-26 20:35:38 - INFO] - AnishaMusic - [Assistant] Left idle group: MarkeNorth (-4596192368)
+[28-May-26 21:40:43 - INFO] - AnishaMusic - [Assistant] Left idle group: MarkeNorth (-4596192368)
+[28-May-26 22:45:48 - INFO] - AnishaMusic - [Assistant] Left idle group: MarkeNorth (-4596192368)
+[28-May-26 23:50:53 - INFO] - AnishaMusic - [Assistant] Left idle group: MarkeNorth (-4596192368)
+[29-May-26 00:00:00 - INFO] - AnishaMusic - [•] Scheduled restart triggered (05:30 AM IST / 00:00 UTC).
+[29-May-26 00:00:05 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[29-May-26 00:00:12 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[29-May-26 00:00:14 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[29-May-26 00:00:16 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[29-May-26 00:00:16 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[29-May-26 00:00:16 - INFO] - AnishaMusic - [Logger] Activity logger initialized → channel -1003928121906
+[29-May-26 00:00:16 - INFO] - AnishaMusic - [ErrorReporter] Initialized → owner 5988157836
+[29-May-26 00:00:16 - INFO] - AnishaMusic - [•] Loading Modules...
+[29-May-26 00:00:16 - INFO] - AnishaMusic - [•] Loaded 31 Modules.
+[29-May-26 00:00:16 - INFO] - AnishaMusic - [•] Refreshing Directories...
+[29-May-26 00:00:16 - INFO] - AnishaMusic - [•] Directories Refreshed.
+[29-May-26 00:00:17 - INFO] - AnishaMusic - [•] Bot Started As 𝑨𝒏𝒊𝒔𝒉𝒂❣️.
+[29-May-26 00:00:17 - INFO] - AnishaMusic - [•] Assistant Started As ⏤‌‌‌‌🇹 𝗦𝗕➣ Cazador .
+[29-May-26 00:00:17 - INFO] - AnishaMusic - [•] Starting PyTgCalls Client...
+[29-May-26 00:00:17 - INFO] - AnishaMusic - [•] Bot is now READY and listening for commands!
+[29-May-26 00:00:17 - INFO] - AnishaMusic - [•] Assistant auto-leave background task started.
+[29-May-26 00:00:27 - INFO] - AnishaMusic - [•] Starting group startup notifications...
+[29-May-26 00:00:31 - INFO] - AnishaMusic - [•] Startup notifications complete. Sent: 2, Failed: 2
+[29-May-26 00:00:47 - INFO] - AnishaMusic - [•] Scheduled restart task started (target: 05:30 AM IST / 00:00 UTC daily).
+[29-May-26 00:00:47 - INFO] - AnishaMusic - [•] Next scheduled restart in 86352s (23h 59m)
+[29-May-26 01:05:22 - INFO] - AnishaMusic - [Assistant] Left idle group: MarkeNorth (-4596192368)
+[29-May-26 02:10:27 - INFO] - AnishaMusic - [Assistant] Left idle group: MarkeNorth (-4596192368)
+[29-May-26 03:15:32 - INFO] - AnishaMusic - [Assistant] Left idle group: MarkeNorth (-4596192368)
+[29-May-26 04:20:37 - INFO] - AnishaMusic - [Assistant] Left idle group: MarkeNorth (-4596192368)
+[29-May-26 05:25:42 - INFO] - AnishaMusic - [Assistant] Left idle group: MarkeNorth (-4596192368)
+[29-May-26 06:07:10 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=mfNnCKMx-tk
+[29-May-26 06:07:10 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=mfNnCKMx-tk
+[29-May-26 06:07:11 - WARNING] - AnishaMusic - [Downloader] JioSaavn failed: No results found on JioSaavn, falling back to YouTube
+[29-May-26 06:07:11 - WARNING] - AnishaMusic - Download failed for query search result mfNnCKMx-tk: Both JioSaavn and YouTube failed for: https://youtube.com/watch?v=mfNnCKMx-tk
+[29-May-26 06:07:11 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=d2qdSzqD3p8
+[29-May-26 06:07:11 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=d2qdSzqD3p8
+[29-May-26 06:07:11 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:07:11 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:07:11 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -554286148,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:07:12 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:07:12 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:07:12 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 255315498,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:07:14 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=U9Ba5qJU6fw
+[29-May-26 06:07:14 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 06:07:14 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=U9Ba5qJU6fw
+[29-May-26 06:07:14 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:07:14 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 625567750,
+        "user_id": 2067003147,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:07:14 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:07:15 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 06:07:17 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:07:17 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 197771488,
+        "user_id": 6462268875,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:07:21 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:07:21 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 255315498,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:07:27 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:07:27 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 255315498,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[29-May-26 06:07:33 - DEBUG] - pytgcalls - Received: {
+    "_": "ChatUpdate",
+    "action": null,
+    "chat_id": -1003882113270,
+    "status": "Status.CLOSED_VOICE_CHAT"
+}
+[29-May-26 06:07:36 - DEBUG] - pytgcalls - FullChat cache miss for -1003882113270
+[29-May-26 06:07:46 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:07:46 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 324411145,
+        "user_id": 2067003147,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:07:46 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:07:46 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 324411145,
+        "user_id": 2067003147,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:08:05 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=mfNnCKMx-tk
+[29-May-26 06:08:05 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=mfNnCKMx-tk
+[29-May-26 06:08:05 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:08:05 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 701396706,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:08:06 - WARNING] - AnishaMusic - [Downloader] JioSaavn failed: No results found on JioSaavn, falling back to YouTube
+[29-May-26 06:08:06 - WARNING] - AnishaMusic - Download failed for query search result mfNnCKMx-tk: Both JioSaavn and YouTube failed for: https://youtube.com/watch?v=mfNnCKMx-tk
+[29-May-26 06:08:06 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=d2qdSzqD3p8
+[29-May-26 06:08:06 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=d2qdSzqD3p8
+[29-May-26 06:08:06 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:08:07 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:08:10 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=ZuMLl7BI6D4
+[29-May-26 06:08:10 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=ZuMLl7BI6D4
+[29-May-26 06:08:10 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:08:11 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 06:08:14 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=U9Ba5qJU6fw
+[29-May-26 06:08:14 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=U9Ba5qJU6fw
+[29-May-26 06:08:15 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:08:18 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=fRgYkHkP0PI
+[29-May-26 06:08:18 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=fRgYkHkP0PI
+[29-May-26 06:08:19 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:08:20 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 06:08:35 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=hGqMsuveWpU
+[29-May-26 06:08:35 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=hGqMsuveWpU
+[29-May-26 06:08:36 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:08:36 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 06:08:40 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=U9Ba5qJU6fw
+[29-May-26 06:08:40 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=U9Ba5qJU6fw
+[29-May-26 06:08:41 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:09:03 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:09:03 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 701396706,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[29-May-26 06:14:44 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:14:44 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 324411145,
+        "user_id": 2067003147,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:16:57 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:16:57 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 695369801,
+        "user_id": 2067003147,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:20:29 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:20:29 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 88312940,
+        "user_id": 7193653407,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:21:08 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:21:08 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 88312940,
+        "user_id": 7193653407,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:30:48 - INFO] - AnishaMusic - [Assistant] Left idle group: MarkeNorth (-4596192368)
+[29-May-26 06:32:14 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:32:14 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1071770120,
+        "user_id": 8134277174,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:34:25 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=U5BGz0yVmbk
+[29-May-26 06:34:25 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=U5BGz0yVmbk
+[29-May-26 06:34:26 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:34:27 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:34:27 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 06:34:29 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:34:29 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1038546954,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:34:36 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=Wo9ZurF40aA
+[29-May-26 06:34:36 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=Wo9ZurF40aA
+[29-May-26 06:34:37 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:34:37 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 06:34:43 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=dzHVa7MISjg
+[29-May-26 06:34:43 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=dzHVa7MISjg
+[29-May-26 06:34:43 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:34:44 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 06:34:51 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=V0jnADgM6A8
+[29-May-26 06:34:51 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=V0jnADgM6A8
+[29-May-26 06:34:52 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:34:53 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 06:35:04 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=bsyqnxZbe_s
+[29-May-26 06:35:04 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=bsyqnxZbe_s
+[29-May-26 06:35:05 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:35:05 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 06:35:08 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:35:08 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1038546954,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:35:13 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:35:13 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 701396706,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:35:24 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=U9Ba5qJU6fw
+[29-May-26 06:35:24 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=U9Ba5qJU6fw
+[29-May-26 06:35:24 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:35:24 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:35:24 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1745685975,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:35:24 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 288002331,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[29-May-26 06:35:25 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:35:25 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:35:26 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 06:35:29 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=bsyqnxZbe_s
+[29-May-26 06:35:29 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=bsyqnxZbe_s
+[29-May-26 06:35:29 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:35:33 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=V0jnADgM6A8
+[29-May-26 06:35:33 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=V0jnADgM6A8
+[29-May-26 06:35:33 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:35:38 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=dzHVa7MISjg
+[29-May-26 06:35:38 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=dzHVa7MISjg
+[29-May-26 06:35:39 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:35:42 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:35:42 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 854850230,
+        "user_id": 6462268875,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:35:42 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:35:42 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 288002331,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[29-May-26 06:35:53 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=ZfheHzu6_s0
+[29-May-26 06:35:53 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=ZfheHzu6_s0
+[29-May-26 06:35:53 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:35:54 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 06:36:02 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=hGqMsuveWpU
+[29-May-26 06:36:02 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=hGqMsuveWpU
+[29-May-26 06:36:02 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:36:06 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=ZuMLl7BI6D4
+[29-May-26 06:36:06 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=ZuMLl7BI6D4
+[29-May-26 06:36:06 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:36:09 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=Wo9ZurF40aA
+[29-May-26 06:36:09 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=Wo9ZurF40aA
+[29-May-26 06:36:10 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:36:30 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=YTE6LWAlAcE
+[29-May-26 06:36:30 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=YTE6LWAlAcE
+[29-May-26 06:36:30 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 06:36:31 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 06:36:38 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:36:38 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 835188465,
+        "user_id": 7193653407,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:36:40 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:36:40 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 288002331,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:36:48 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:36:48 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 835188465,
+        "user_id": 7193653407,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:37:40 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:37:40 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1374092277,
+        "user_id": 7193653407,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:40:32 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:40:32 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1071770120,
+        "user_id": 8134277174,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:40:59 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:40:59 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 695369801,
+        "user_id": 2067003147,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:41:11 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:41:11 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 47199528,
+        "user_id": 8134277174,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:41:56 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:41:56 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1089751451,
+        "user_id": 7591180762,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:42:08 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:42:08 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1089751451,
+        "user_id": 7591180762,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:42:12 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:42:12 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1374092277,
+        "user_id": 7193653407,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:42:24 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:42:24 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 876744754,
+        "user_id": 2067003147,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:50:35 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:50:35 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 47199528,
+        "user_id": 8134277174,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:50:37 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:50:37 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2007160764,
+        "user_id": 8134277174,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:55:51 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:55:51 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1022387995,
+        "user_id": 1823410998,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:55:52 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:55:52 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1022387995,
+        "user_id": 1823410998,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:55:54 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:55:54 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1467380479,
+        "user_id": 1823410998,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 06:55:56 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 06:55:56 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1467380479,
+        "user_id": 1823410998,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:05:37 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:05:37 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 235361351,
+        "user_id": 6272491262,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:05:40 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:05:40 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 235361351,
+        "user_id": 6272491262,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:10:52 - DEBUG] - pytgcalls - FullChat cache miss for -1003882113270
+[29-May-26 07:10:53 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:10:53 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1061538677,
+        "user_id": 8198692931,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:11:56 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:11:56 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1061538677,
+        "user_id": 8198692931,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:14:38 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:14:38 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 991801984,
+        "user_id": 8198692931,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:17:10 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:17:10 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 991801984,
+        "user_id": 8198692931,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:21:32 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=Umqb9KENgmk
+[29-May-26 07:21:32 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=Umqb9KENgmk
+[29-May-26 07:21:32 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 07:21:33 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:21:34 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 07:21:35 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:21:35 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 709800507,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:21:38 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=KyMNLIYRsR4
+[29-May-26 07:21:38 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=KyMNLIYRsR4
+[29-May-26 07:21:39 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 07:21:40 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 07:21:43 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:21:43 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 91742289,
+        "user_id": 7193653407,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:22:01 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:22:01 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 91742289,
+        "user_id": 7193653407,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:23:40 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:23:40 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1745685975,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:23:41 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:23:41 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1745685975,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:28:15 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:28:15 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1745685975,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:28:15 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:28:15 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1745685975,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:31:41 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:31:41 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 709800507,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:33:54 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:33:54 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1745685975,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:35:53 - INFO] - AnishaMusic - [Assistant] Left idle group: MarkeNorth (-4596192368)
+[29-May-26 07:44:32 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:44:32 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1898904080,
+        "user_id": 7703245790,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:44:46 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:44:46 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1898904080,
+        "user_id": 7703245790,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:52:23 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:52:23 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1235461014,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:52:26 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:52:26 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1235461014,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:52:44 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 07:54:20 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:54:20 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1235461014,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:54:25 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:54:25 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2125132895,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:54:26 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:54:26 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2125132895,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:54:45 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:54:45 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2125132895,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:55:12 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:55:12 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1720823639,
+        "user_id": 5387943807,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:55:18 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:55:18 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1720823639,
+        "user_id": 5387943807,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 07:55:28 - DEBUG] - pytgcalls - Received: {
+    "_": "ChatUpdate",
+    "chat_id": -1003882113270,
+    "status": "Status.INVITED_VOICE_CHAT"
+}
+[29-May-26 07:55:49 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 07:55:49 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1720823639,
+        "user_id": 5387943807,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:10:47 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:10:47 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1098357413,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:10:51 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:10:51 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1098357413,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:22:41 - DEBUG] - pytgcalls - FullChat cache miss for -1003882113270
+[29-May-26 08:22:41 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:22:41 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 374257481,
+        "user_id": 7193653407,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:23:30 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:23:30 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 374257481,
+        "user_id": 7193653407,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:27:05 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:27:05 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 12652141,
+        "user_id": 5387943807,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:27:07 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:27:07 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 12652141,
+        "user_id": 5387943807,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:31:39 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:31:39 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 424749888,
+        "user_id": 8915866692,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:31:43 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:31:43 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 424749888,
+        "user_id": 8915866692,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:40:58 - INFO] - AnishaMusic - [Assistant] Left idle group: MarkeNorth (-4596192368)
+[29-May-26 08:45:37 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:45:37 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2042982138,
+        "user_id": 8506256571,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:45:40 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:45:40 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2042982138,
+        "user_id": 8506256571,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:45:42 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:45:42 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1564269567,
+        "user_id": 8506256571,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:47:43 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:47:43 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1562154462,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:47:46 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:47:46 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1562154462,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:49:39 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:49:39 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 315101224,
+        "user_id": 8330843962,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:53:04 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:53:04 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1564269567,
+        "user_id": 8506256571,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:53:55 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:53:55 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 315101224,
+        "user_id": 8330843962,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:54:05 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:54:05 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 315101224,
+        "user_id": 8330843962,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[29-May-26 08:54:16 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:54:16 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1562154462,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[29-May-26 08:55:33 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:55:33 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1562154462,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:55:36 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:55:36 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 315101224,
+        "user_id": 8330843962,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:56:42 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 08:56:42 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.KICKED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2007160764,
+        "user_id": 8134277174,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 08:56:42 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 215167924,
+        "user_id": 8134277174,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 09:28:34 - DEBUG] - pytgcalls - FullChat cache miss for -1003882113270
+[29-May-26 09:28:34 - DEBUG] - pytgcalls - Received: {
+    "_": "ChatUpdate",
+    "action": null,
+    "chat_id": -1003882113270,
+    "status": "Status.CLOSED_VOICE_CHAT"
+}
+[29-May-26 09:46:04 - INFO] - AnishaMusic - [Assistant] Left idle group: MarkeNorth (-4596192368)
+[29-May-26 10:42:40 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: https://youtube.com/watch?v=tkPAJPgWNr0
+[29-May-26 10:42:40 - INFO] - AnishaMusic - [Saavn] Searching: https://youtube.com/watch?v=tkPAJPgWNr0
+[29-May-26 10:42:41 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn__ktwvYmU.mp4
+[29-May-26 10:42:41 - DEBUG] - pytgcalls - FullChat cache miss for -1003882113270
+[29-May-26 10:42:42 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:43:50 - ERROR] - AnishaMusic - Anisha Music Bot Stopped.
+[29-May-26 10:43:52 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[29-May-26 10:44:01 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[29-May-26 10:44:03 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[29-May-26 10:44:04 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[29-May-26 10:44:04 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[29-May-26 10:44:04 - INFO] - AnishaMusic - [Logger] Activity logger initialized → channel -1003928121906
+[29-May-26 10:44:04 - INFO] - AnishaMusic - [ErrorReporter] Initialized → owner 5988157836
+[29-May-26 10:44:04 - INFO] - AnishaMusic - [•] Loading Modules...
+[29-May-26 10:44:05 - INFO] - AnishaMusic - [•] Loaded 31 Modules.
+[29-May-26 10:44:05 - INFO] - AnishaMusic - [•] Refreshing Directories...
+[29-May-26 10:44:05 - INFO] - AnishaMusic - [•] Directories Refreshed.
+[29-May-26 10:44:05 - INFO] - AnishaMusic - [•] Bot Started As 𝑨𝒏𝒊𝒔𝒉𝒂❣️.
+[29-May-26 10:44:05 - INFO] - AnishaMusic - [•] Assistant Started As ⏤‌‌‌‌🇹 𝗦𝗕➣ Cazador .
+[29-May-26 10:44:05 - INFO] - AnishaMusic - [•] Starting PyTgCalls Client...
+[29-May-26 10:44:05 - INFO] - AnishaMusic - [•] Bot is now READY and listening for commands!
+[29-May-26 10:44:05 - INFO] - AnishaMusic - [•] Assistant auto-leave background task started.
+[29-May-26 10:44:15 - INFO] - AnishaMusic - [•] Starting group startup notifications...
+[29-May-26 10:44:20 - INFO] - AnishaMusic - [•] Startup notifications complete. Sent: 2, Failed: 2
+[29-May-26 10:44:35 - INFO] - AnishaMusic - [•] Scheduled restart task started (target: 05:30 AM IST / 00:00 UTC daily).
+[29-May-26 10:44:35 - INFO] - AnishaMusic - [•] Next scheduled restart in 47724s (13h 15m)
+[29-May-26 10:44:53 - ERROR] - AnishaMusic - Anisha Music Bot Stopped.
+[29-May-26 10:44:55 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[29-May-26 10:45:04 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[29-May-26 10:45:06 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[29-May-26 10:45:07 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[29-May-26 10:45:07 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[29-May-26 10:45:07 - INFO] - AnishaMusic - [Logger] Activity logger initialized → channel -1003928121906
+[29-May-26 10:45:07 - INFO] - AnishaMusic - [ErrorReporter] Initialized → owner 5988157836
+[29-May-26 10:45:07 - INFO] - AnishaMusic - [•] Loading Modules...
+[29-May-26 10:45:07 - INFO] - AnishaMusic - [•] Loaded 31 Modules.
+[29-May-26 10:45:07 - INFO] - AnishaMusic - [•] Refreshing Directories...
+[29-May-26 10:45:07 - INFO] - AnishaMusic - [•] Directories Refreshed.
+[29-May-26 10:45:08 - INFO] - AnishaMusic - [•] Bot Started As 𝑨𝒏𝒊𝒔𝒉𝒂❣️.
+[29-May-26 10:45:08 - INFO] - AnishaMusic - [•] Assistant Started As ⏤‌‌‌‌🇹 𝗦𝗕➣ Cazador .
+[29-May-26 10:45:08 - INFO] - AnishaMusic - [•] Starting PyTgCalls Client...
+[29-May-26 10:45:08 - INFO] - AnishaMusic - [•] Bot is now READY and listening for commands!
+[29-May-26 10:45:08 - INFO] - AnishaMusic - [•] Assistant auto-leave background task started.
+[29-May-26 10:45:18 - INFO] - AnishaMusic - [•] Starting group startup notifications...
+[29-May-26 10:45:22 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Alakh Niranjan
+[29-May-26 10:45:22 - INFO] - AnishaMusic - [Saavn] Searching: Alakh Niranjan
+[29-May-26 10:45:23 - INFO] - AnishaMusic - [•] Startup notifications complete. Sent: 2, Failed: 2
+[29-May-26 10:45:23 - INFO] - AnishaMusic - [Saavn] Downloading: Alakh Niranjan
+[29-May-26 10:45:23 - INFO] - AnishaMusic - [Saavn] Downloaded: downloads/saavn_XBB7TAwU.mp4
+[29-May-26 10:45:23 - DEBUG] - pytgcalls - FullChat cache miss for -1003882113270
+[29-May-26 10:45:24 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:45:26 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:45:26 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 720821526,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 10:45:30 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:45:30 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1206567526,
+        "user_id": 7950275745,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 10:45:33 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:45:33 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1810937904,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 10:45:38 - INFO] - AnishaMusic - [•] Scheduled restart task started (target: 05:30 AM IST / 00:00 UTC daily).
+[29-May-26 10:45:38 - INFO] - AnishaMusic - [•] Next scheduled restart in 47661s (13h 14m)
+[29-May-26 10:46:24 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:46:24 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.KICKED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 720821526,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 10:46:24 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1223746728,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 10:46:48 - ERROR] - AnishaMusic - Anisha Music Bot Stopped.
+[29-May-26 10:46:50 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[29-May-26 10:46:58 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[29-May-26 10:47:00 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[29-May-26 10:47:01 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[29-May-26 10:47:01 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[29-May-26 10:47:01 - INFO] - AnishaMusic - [Logger] Activity logger initialized → channel -1003928121906
+[29-May-26 10:47:01 - INFO] - AnishaMusic - [ErrorReporter] Initialized → owner 5988157836
+[29-May-26 10:47:01 - INFO] - AnishaMusic - [•] Loading Modules...
+[29-May-26 10:47:01 - INFO] - AnishaMusic - [•] Loaded 31 Modules.
+[29-May-26 10:47:01 - INFO] - AnishaMusic - [•] Refreshing Directories...
+[29-May-26 10:47:01 - INFO] - AnishaMusic - [•] Directories Refreshed.
+[29-May-26 10:47:02 - INFO] - AnishaMusic - [•] Bot Started As 𝑨𝒏𝒊𝒔𝒉𝒂❣️.
+[29-May-26 10:47:02 - INFO] - AnishaMusic - [•] Assistant Started As ⏤‌‌‌‌🇹 𝗦𝗕➣ Cazador .
+[29-May-26 10:47:02 - INFO] - AnishaMusic - [•] Starting PyTgCalls Client...
+[29-May-26 10:47:03 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Alakh Niranjan
+[29-May-26 10:47:03 - INFO] - AnishaMusic - [Saavn] Searching: Alakh Niranjan
+[29-May-26 10:47:03 - INFO] - AnishaMusic - [•] Bot is now READY and listening for commands!
+[29-May-26 10:47:03 - INFO] - AnishaMusic - [•] Assistant auto-leave background task started.
+[29-May-26 10:47:04 - INFO] - AnishaMusic - [Saavn] Downloading: Alakh Niranjan
+[29-May-26 10:47:04 - INFO] - AnishaMusic - [Saavn] Downloaded: downloads/saavn_XBB7TAwU.m4a
+[29-May-26 10:47:04 - DEBUG] - pytgcalls - FullChat cache miss for -1003882113270
+[29-May-26 10:47:05 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:47:13 - INFO] - AnishaMusic - [•] Starting group startup notifications...
+[29-May-26 10:47:18 - INFO] - AnishaMusic - [•] Startup notifications complete. Sent: 2, Failed: 2
+[29-May-26 10:47:24 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Alakh Niranjan
+[29-May-26 10:47:24 - INFO] - AnishaMusic - [Saavn] Searching: Alakh Niranjan
+[29-May-26 10:47:24 - INFO] - AnishaMusic - [Saavn] Cached: downloads/saavn_XBB7TAwU.m4a
+[29-May-26 10:47:25 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:47:33 - INFO] - AnishaMusic - [•] Scheduled restart task started (target: 05:30 AM IST / 00:00 UTC daily).
+[29-May-26 10:47:33 - INFO] - AnishaMusic - [•] Next scheduled restart in 47546s (13h 12m)
+[29-May-26 10:48:42 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:48:42 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1223746728,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 10:48:48 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:48:48 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 826874551,
+        "user_id": 2067003147,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 10:49:12 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:49:12 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1223746728,
+        "user_id": 5988157836,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[29-May-26 10:49:14 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:49:14 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1466310764,
+        "user_id": 6462268875,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[29-May-26 10:50:15 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Alakh Niranjan
+[29-May-26 10:50:15 - INFO] - AnishaMusic - [Saavn] Searching: Alakh Niranjan
+[29-May-26 10:50:15 - INFO] - AnishaMusic - [Saavn] Downloading: Alakh Niranjan
+[29-May-26 10:50:16 - INFO] - AnishaMusic - [Saavn] Downloaded: downloads/saavn_XBB7TAwU.m4a
+[29-May-26 10:50:17 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 10:51:21 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:51:21 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1810937904,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 10:51:22 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:51:22 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1810937904,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 10:52:52 - ERROR] - AnishaMusic - Anisha Music Bot Stopped.
+[29-May-26 10:52:53 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[29-May-26 10:53:02 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[29-May-26 10:53:04 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[29-May-26 10:53:05 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[29-May-26 10:53:05 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[29-May-26 10:53:05 - INFO] - AnishaMusic - [Logger] Activity logger initialized → channel -1003928121906
+[29-May-26 10:53:05 - INFO] - AnishaMusic - [ErrorReporter] Initialized → owner 5988157836
+[29-May-26 10:53:05 - INFO] - AnishaMusic - [•] Loading Modules...
+[29-May-26 10:53:06 - INFO] - AnishaMusic - [•] Loaded 31 Modules.
+[29-May-26 10:53:06 - INFO] - AnishaMusic - [•] Refreshing Directories...
+[29-May-26 10:53:06 - INFO] - AnishaMusic - [•] Directories Refreshed.
+[29-May-26 10:53:06 - INFO] - AnishaMusic - [•] Bot Started As 𝑨𝒏𝒊𝒔𝒉𝒂❣️.
+[29-May-26 10:53:06 - INFO] - AnishaMusic - [•] Assistant Started As ⏤‌‌‌‌🇹 𝗦𝗕➣ Cazador .
+[29-May-26 10:53:06 - INFO] - AnishaMusic - [•] Starting PyTgCalls Client...
+[29-May-26 10:53:07 - INFO] - AnishaMusic - [•] Bot is now READY and listening for commands!
+[29-May-26 10:53:07 - INFO] - AnishaMusic - [•] Assistant auto-leave background task started.
+[29-May-26 10:53:17 - INFO] - AnishaMusic - [•] Starting group startup notifications...
+[29-May-26 10:53:21 - INFO] - AnishaMusic - [•] Startup notifications complete. Sent: 2, Failed: 2
+[29-May-26 10:53:30 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Alakh Niranjan
+[29-May-26 10:53:30 - INFO] - AnishaMusic - [Saavn] Searching: Alakh Niranjan
+[29-May-26 10:53:31 - INFO] - AnishaMusic - [Saavn] Downloading: Alakh Niranjan
+[29-May-26 10:53:31 - WARNING] - AnishaMusic - [Downloader] JioSaavn failed: 400 Client Error: Bad Request for url: https://aac.saavncdn.com/201/787c64896206067acd061ff7e72a6374_320.mp4%04%04%04%04, falling back to YouTube
+[29-May-26 10:53:31 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=tkPAJPgWNr0
+[29-May-26 10:53:33 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] tkPAJPgWNr0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[29-May-26 10:53:33 - WARNING] - AnishaMusic - Download failed for query search result tkPAJPgWNr0: ERROR: [youtube+GetPOT] tkPAJPgWNr0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[29-May-26 10:53:33 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Aadesh Hanuman - Alakh Niranjan | Baba Gorakhnath Bhajan | Powerful Hanuman Stotra
+[29-May-26 10:53:33 - INFO] - AnishaMusic - [Saavn] Searching: Aadesh Hanuman - Alakh Niranjan | Baba Gorakhnath Bhajan | Powerful Hanuman Stotra
+[29-May-26 10:53:33 - INFO] - AnishaMusic - [Saavn] Downloading: Aadesh Hanuman
+[29-May-26 10:53:33 - WARNING] - AnishaMusic - [Downloader] JioSaavn failed: 400 Client Error: Bad Request for url: https://aac.saavncdn.com/902/37b49f7ce8c48ab630d96199187708b6_320.mp4%04%04%04%04, falling back to YouTube
+[29-May-26 10:53:33 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=6PhSeQxVbFk
+[29-May-26 10:53:35 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] 6PhSeQxVbFk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[29-May-26 10:53:35 - WARNING] - AnishaMusic - Download failed for query search result 6PhSeQxVbFk: ERROR: [youtube+GetPOT] 6PhSeQxVbFk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[29-May-26 10:53:35 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Alakh Niranjan Aadesh By Aditya
+[29-May-26 10:53:35 - INFO] - AnishaMusic - [Saavn] Searching: Alakh Niranjan Aadesh By Aditya
+[29-May-26 10:53:35 - INFO] - AnishaMusic - [Saavn] Downloading: Aditya Hrudayam Stotram
+[29-May-26 10:53:35 - WARNING] - AnishaMusic - [Downloader] JioSaavn failed: 400 Client Error: Bad Request for url: https://aac.saavncdn.com/735/60aa807f4bac6f4f7bf67cd09e047a4b_320.mp4%04%04%04%04, falling back to YouTube
+[29-May-26 10:53:35 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=L7vs1cRVLLI
+[29-May-26 10:53:37 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] L7vs1cRVLLI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[29-May-26 10:53:37 - WARNING] - AnishaMusic - Download failed for query search result L7vs1cRVLLI: ERROR: [youtube+GetPOT] L7vs1cRVLLI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[29-May-26 10:53:37 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Alakh Niranjan Adesh
+[29-May-26 10:53:37 - INFO] - AnishaMusic - [Saavn] Searching: Alakh Niranjan Adesh
+[29-May-26 10:53:37 - INFO] - AnishaMusic - [Saavn] Downloading: Alakh Niranjan Adesh
+[29-May-26 10:53:37 - INFO] - AnishaMusic - [•] Scheduled restart task started (target: 05:30 AM IST / 00:00 UTC daily).
+[29-May-26 10:53:37 - INFO] - AnishaMusic - [•] Next scheduled restart in 47182s (13h 6m)
+[29-May-26 10:53:37 - WARNING] - AnishaMusic - [Downloader] JioSaavn failed: 400 Client Error: Bad Request for url: https://aac.saavncdn.com/386/3a2cdc7fec774f7dfc3e8cece2dfb8b9_320.mp4%04%04%04%04, falling back to YouTube
+[29-May-26 10:53:37 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=9BD7HkqQrmg
+[29-May-26 10:53:38 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] 9BD7HkqQrmg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[29-May-26 10:53:38 - WARNING] - AnishaMusic - Download failed for query search result 9BD7HkqQrmg: ERROR: [youtube+GetPOT] 9BD7HkqQrmg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[29-May-26 10:53:38 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Alakh Niranjan Song | Order Alakh Niranjan | Aghori Music | Baba Gorakhnath Bhajan
+[29-May-26 10:53:38 - INFO] - AnishaMusic - [Saavn] Searching: Alakh Niranjan Song | Order Alakh Niranjan | Aghori Music | Baba Gorakhnath Bhajan
+[29-May-26 10:53:39 - INFO] - AnishaMusic - [Saavn] Downloading: Alakh Niranjan
+[29-May-26 10:53:39 - WARNING] - AnishaMusic - [Downloader] JioSaavn failed: 400 Client Error: Bad Request for url: https://aac.saavncdn.com/201/787c64896206067acd061ff7e72a6374_320.mp4%04%04%04%04, falling back to YouTube
+[29-May-26 10:53:39 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=LJD9O3NtR7E
+[29-May-26 10:53:40 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] LJD9O3NtR7E: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[29-May-26 10:53:40 - WARNING] - AnishaMusic - Download failed for query search result LJD9O3NtR7E: ERROR: [youtube+GetPOT] LJD9O3NtR7E: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[29-May-26 10:54:35 - ERROR] - AnishaMusic - Anisha Music Bot Stopped.
+[29-May-26 10:54:37 - INFO] - AnishaMusic - 
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃★ ANISHA MUSIC BOT ★
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[29-May-26 10:54:46 - INFO] - AnishaMusic - [•] Booting Anisha Music Bot...
+[29-May-26 10:54:48 - INFO] - AnishaMusic - [•] Booting Anisha Music Assistant...
+[29-May-26 10:54:50 - INFO] - AnishaMusic - [•] Local Database Initialized...
+[29-May-26 10:54:50 - INFO] - AnishaMusic - [•] Anisha Music Clients Booted Successfully.
+[29-May-26 10:54:50 - INFO] - AnishaMusic - [Logger] Activity logger initialized → channel -1003928121906
+[29-May-26 10:54:50 - INFO] - AnishaMusic - [ErrorReporter] Initialized → owner 5988157836
+[29-May-26 10:54:50 - INFO] - AnishaMusic - [•] Loading Modules...
+[29-May-26 10:54:50 - INFO] - AnishaMusic - [•] Loaded 31 Modules.
+[29-May-26 10:54:50 - INFO] - AnishaMusic - [•] Refreshing Directories...
+[29-May-26 10:54:50 - INFO] - AnishaMusic - [•] Directories Refreshed.
+[29-May-26 10:54:51 - INFO] - AnishaMusic - [•] Bot Started As 𝑨𝒏𝒊𝒔𝒉𝒂❣️.
+[29-May-26 10:54:51 - INFO] - AnishaMusic - [•] Assistant Started As ⏤‌‌‌‌🇹 𝗦𝗕➣ Cazador .
+[29-May-26 10:54:51 - INFO] - AnishaMusic - [•] Starting PyTgCalls Client...
+[29-May-26 10:54:51 - INFO] - AnishaMusic - [•] Bot is now READY and listening for commands!
+[29-May-26 10:54:51 - INFO] - AnishaMusic - [•] Assistant auto-leave background task started.
+[29-May-26 10:55:01 - INFO] - AnishaMusic - [•] Starting group startup notifications...
+[29-May-26 10:55:05 - INFO] - AnishaMusic - [•] Startup notifications complete. Sent: 2, Failed: 2
+[29-May-26 10:55:10 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Alakh Niranjan
+[29-May-26 10:55:10 - INFO] - AnishaMusic - [Saavn] Searching: Alakh Niranjan
+[29-May-26 10:55:11 - INFO] - AnishaMusic - [Saavn] Downloading: Alakh Niranjan
+[29-May-26 10:55:11 - INFO] - AnishaMusic - [Saavn] Downloaded: downloads/saavn_XBB7TAwU.m4a
+[29-May-26 10:55:11 - DEBUG] - pytgcalls - FullChat cache miss for -1003882113270
+[29-May-26 10:55:12 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:55:21 - INFO] - AnishaMusic - [•] Scheduled restart task started (target: 05:30 AM IST / 00:00 UTC daily).
+[29-May-26 10:55:21 - INFO] - AnishaMusic - [•] Next scheduled restart in 47078s (13h 4m)
+[29-May-26 10:55:29 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:55:29 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1810937904,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 10:55:29 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 10:55:29 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -1810937904,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}

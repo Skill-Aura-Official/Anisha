@@ -12,7 +12,9 @@ def decrypt_url(encrypted_url: str) -> str:
     cipher = DES.new(key, DES.MODE_ECB)
     enc = base64.b64decode(encrypted_url.strip().encode())
     dec = cipher.decrypt(enc)
-    url = dec.decode('utf-8').strip()
+    # Remove PKCS5 padding bytes
+    url = dec.decode('utf-8', errors='ignore')
+    url = url.rstrip('\x00\x01\x02\x03\x04\x05\x06\x07\x08').strip()
     return url.replace('_96.mp4', '_320.mp4')
 
 def search_saavn(query: str) -> dict:
@@ -73,17 +75,23 @@ def _download_saavn(query: str) -> str:
         raise Exception("Could not get download URL from JioSaavn")
 
     os.makedirs('downloads', exist_ok=True)
-    file_path = f"downloads/saavn_{song_id}.mp4"
+    file_path = f"downloads/saavn_{song_id}.m4a"
 
     if os.path.exists(file_path):
         LOGGER.info(f"[Saavn] Cached: {file_path}")
         return file_path
 
     LOGGER.info(f"[Saavn] Downloading: {title}")
-    r = requests.get(url, stream=True, timeout=30)
+    r = requests.get(url, stream=True, timeout=60, headers={"User-Agent": "Mozilla/5.0"})
+    r.raise_for_status()
     with open(file_path, 'wb') as f:
-        for chunk in r.iter_content(chunk_size=8192):
-            f.write(chunk)
+        for chunk in r.iter_content(chunk_size=65536):
+            if chunk:
+                f.write(chunk)
+    f_size = os.path.getsize(file_path)
+    if f_size < 10000:
+        os.remove(file_path)
+        raise Exception(f"Downloaded file too small: {f_size} bytes")
 
     LOGGER.info(f"[Saavn] Downloaded: {file_path}")
     return file_path

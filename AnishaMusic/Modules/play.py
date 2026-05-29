@@ -170,6 +170,8 @@ async def play(_, message: Message):
     )
     url = get_url(message)
     stream_type = "video" if message.command[0].lower() == "vplay" else "audio"
+    if stream_type == "video":
+        return await message.reply_text("» ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍɪɴɢ ɪs ᴛᴇᴍᴘᴏʀᴀʀɪʟʏ ᴅɪsᴀʙʟᴇᴅ. ᴜsᴇ /ᴘʟᴀʏ ɪɴsᴛᴇᴀᴅ! 🎵")
 
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
@@ -216,33 +218,33 @@ async def play(_, message: Message):
 
                 file_path = None
                 last_error = None
-                for result in results:
-                    try:
-                        url = f"https://youtube.com/watch?v={result['id']}"
-                        title = result["title"]
-                        videoid = result["id"]
-                        duration = result.get("duration")
-                        if not duration or duration == "0":
+                # Try JioSaavn first with track query
+                try:
+                    from AnishaMusic.Helpers.saavn import saavn_download
+                    file_path = await saavn_download(track["query"])
+                    title = track["query"]
+                    videoid = "saavn"
+                    duration = str(int(track.get("duration_sec", 0) / 60)) or "?"
+                except Exception as e:
+                    last_error = e
+                    # Fallback to YouTube search results
+                    for result in results:
+                        try:
+                            url = f"https://youtube.com/watch?v={result['id']}"
+                            title = result["title"]
+                            videoid = result["id"]
+                            duration = result.get("duration")
+                            if not duration or duration == "0":
+                                continue
+                            file_path = await saavn_or_youtube(url)
+                            if file_path:
+                                break
+                        except Exception as e2:
+                            last_error = e2
                             continue
-
-                        secmul, dur, dur_arr = 1, 0, duration.split(":")
-                        for i in range(len(dur_arr) - 1, -1, -1):
-                            dur += int(dur_arr[i]) * secmul
-                            secmul *= 60
-
-                        if (dur / 60) > DURATION_LIMIT:
-                            continue
-
-                        file_path = await video_dl(url) if stream_type == "video" else await saavn_or_youtube(url)
-                        if file_path:
-                            break
-                    except Exception as e:
-                        LOGGER.warning(f"Spotify YT download failed for {result.get('id')}: {e}")
-                        last_error = e
-                        continue
 
                 if not file_path:
-                    error_msg = "» Failed to download Spotify track match from YouTube."
+                    error_msg = "» Failed to download Spotify track."
                     if last_error:
                         error_msg += f"\n\n**ʟᴀsᴛ ᴇʀʀᴏʀ:** `{last_error}`"
                     return await anisha.edit_text(error_msg)
@@ -282,7 +284,7 @@ async def play(_, message: Message):
                         if (dur / 60) > DURATION_LIMIT:
                             continue
 
-                        file_path = await video_dl(url) if stream_type == "video" else await saavn_or_youtube(url)
+                        file_path = await video_dl(url) if stream_type == "video" else await saavn_or_youtube(url, title=title)
                         if file_path:
                             break
                     except Exception as e:
@@ -384,7 +386,7 @@ async def play(_, message: Message):
                 return await anisha.edit_text(
                     f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ ᴏɴ {BOT_NAME}."
                 )
-            file_path = await video_dl(url) if stream_type == "video" else await saavn_or_youtube(url)
+            file_path = await video_dl(url) if stream_type == "video" else await saavn_or_youtube(url, title=title)
 
     else:
         if len(message.command) < 2:
@@ -422,7 +424,7 @@ async def play(_, message: Message):
                 if (dur / 60) > DURATION_LIMIT:
                     continue
 
-                file_path = await video_dl(url) if stream_type == "video" else await saavn_or_youtube(url)
+                file_path = await video_dl(url) if stream_type == "video" else await saavn_or_youtube(url, title=title)
                 if file_path:
                     break
             except Exception as e:
