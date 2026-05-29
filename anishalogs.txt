@@ -3074,3 +3074,75 @@
         "volume": 100
     }
 }
+[29-May-26 10:59:59 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Blender (Lyrics) by Masoom sharma & swara verma
+[29-May-26 10:59:59 - INFO] - AnishaMusic - [Saavn] Searching: Blender (Lyrics) by Masoom sharma & swara verma
+[29-May-26 10:59:59 - WARNING] - AnishaMusic - [Downloader] JioSaavn failed: No results found on JioSaavn, falling back to YouTube
+[29-May-26 10:59:59 - INFO] - AnishaMusic - [Downloader] Starting audio download: https://youtube.com/watch?v=Kduqg1rX9bI
+[29-May-26 11:00:01 - ERROR] - AnishaMusic - [Downloader] Audio download FAILED: ERROR: [youtube+GetPOT] Kduqg1rX9bI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[29-May-26 11:00:01 - WARNING] - AnishaMusic - Download failed for query search result Kduqg1rX9bI: ERROR: [youtube+GetPOT] Kduqg1rX9bI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[29-May-26 11:00:01 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Blender (Full Video) | Masoom Sharma | Dev Chouhan, Pooja Saxena | New Haryanvi Songs Haryanavi 2024
+[29-May-26 11:00:01 - INFO] - AnishaMusic - [Saavn] Searching: Blender (Full Video) | Masoom Sharma | Dev Chouhan, Pooja Saxena | New Haryanvi Songs Haryanavi 2024
+[29-May-26 11:00:01 - INFO] - AnishaMusic - [Saavn] Downloading: Blender (feat. Dev Chouhan,Pooja Saxena)
+[29-May-26 11:00:01 - INFO] - AnishaMusic - [Saavn] Downloaded: downloads/saavn_ofIPH19K.m4a
+[29-May-26 11:00:02 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 11:00:03 - INFO] - httpx - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+[29-May-26 11:00:22 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 11:00:22 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 735056504,
+        "user_id": 6462268875,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 199
+    }
+}
+[29-May-26 11:01:43 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 11:01:43 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.JOINED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1826968629,
+        "user_id": 7638363928,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[29-May-26 11:01:54 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[29-May-26 11:01:54 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1826968629,
+        "user_id": 7638363928,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
