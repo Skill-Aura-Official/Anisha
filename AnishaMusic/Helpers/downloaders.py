@@ -40,6 +40,7 @@ _common_opts = {
     "extractor_retries": 3,
     "retries": 3,
     "socket_timeout": 30,
+    "extractor_args": {"youtube": {"player_client": ["android", "web"]}},
 }
 
 ydl_opts = {
