@@ -4,6 +4,8 @@
 import asyncio
 import logging
 import os
+import base64
+import tempfile
 from yt_dlp import YoutubeDL
 
 LOGGER = logging.getLogger("AnishaMusic")
