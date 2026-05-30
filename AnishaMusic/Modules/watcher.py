@@ -126,13 +126,8 @@ async def on_stream_end(pytgcalls, update: Update):
             get.pop(0)
 
             if not os.path.exists(file_path):
-                from AnishaMusic.Helpers.saavn import saavn_download
-                try:
-                    file_path = await saavn_download(title)
-                    videoid = videoid
-                except Exception:
-                    from AnishaMusic.Helpers.downloaders import resolve_and_download
-                    file_path, videoid = await resolve_and_download(title, videoid, stream_type)
+                from AnishaMusic.Helpers.downloaders import resolve_and_download
+                file_path, videoid = await resolve_and_download(title, videoid, stream_type)
                 if not file_path or not os.path.exists(file_path):
                     try:
                         await process.edit_text("» sᴋɪᴘᴘɪɴɢ ᴄᴜʀʀᴇɴᴛ ᴛʀᴀᴄᴋ ᴅᴜᴇ ᴛᴏ ʀᴇsᴏʟᴜᴛɪᴏɴ ᴇʀʀᴏʀ...")

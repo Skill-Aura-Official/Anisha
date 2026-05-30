@@ -218,30 +218,20 @@ async def play(_, message: Message):
 
                 file_path = None
                 last_error = None
-                # Try JioSaavn first with track query
-                try:
-                    from AnishaMusic.Helpers.saavn import saavn_download
-                    file_path = await saavn_download(track["query"])
-                    title = track["query"]
-                    videoid = "saavn"
-                    duration = str(int(track.get("duration_sec", 0) / 60)) or "?"
-                except Exception as e:
-                    last_error = e
-                    # Fallback to YouTube search results
-                    for result in results:
-                        try:
-                            url = f"https://youtube.com/watch?v={result['id']}"
-                            title = result["title"]
-                            videoid = result["id"]
-                            duration = result.get("duration")
-                            if not duration or duration == "0":
-                                continue
-                            file_path = await saavn_or_youtube(url)
-                            if file_path:
-                                break
-                        except Exception as e2:
-                            last_error = e2
+                for result in results:
+                    try:
+                        url = f"https://youtube.com/watch?v={result['id']}"
+                        title = result["title"]
+                        videoid = result["id"]
+                        duration = result.get("duration")
+                        if not duration or duration == "0":
                             continue
+                        file_path = await saavn_or_youtube(url, title=title)
+                        if file_path:
+                            break
+                    except Exception as e2:
+                        last_error = e2
+                        continue
 
                 if not file_path:
                     error_msg = "» Failed to download Spotify track."

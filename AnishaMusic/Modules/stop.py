@@ -37,7 +37,20 @@ async def stop_str(_, message: Message):
         pass
     try:
         await _clear_(message.chat.id)
+    except Exception as e:
+        pass
+    try:
         await pytgcalls.leave_call(message.chat.id)
+    except Exception as e:
+        pass
+    # Force assistant to leave VC
+    try:
+        from AnishaMusic import app2
+        await app2.send(
+            raw.functions.phone.LeaveGroupCall(
+                call=raw.types.InputGroupCall(id=0, access_hash=0),
+            )
+        )
     except:
         pass
 
