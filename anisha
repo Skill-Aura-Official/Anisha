@@ -131,10 +131,10 @@ while true; do
     echo -e "${YELLOW}[•] $(date '+%d-%b-%Y %H:%M:%S') — Bot exited with code: ${EXIT_CODE}${NC}"
 
     if [ $EXIT_CODE -eq 0 ]; then
-        echo -e "${GREEN}[•] Clean exit. Restarting in 5 seconds...${NC}"
-        sleep 5
+        echo -e "${GREEN}[•] Clean exit. Restarting in 30 seconds...${NC}"
+        sleep 30
     else
-        echo -e "${RED}[!] Crash detected (exit code: ${EXIT_CODE}). Restarting in 10 seconds...${NC}"
-        sleep 10
+        echo -e "${RED}[!] Crash detected (exit code: ${EXIT_CODE}). Restarting in 60 seconds...${NC}"
+        sleep 60
     fi
 done
