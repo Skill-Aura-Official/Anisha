@@ -12,6 +12,7 @@ _project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 
 _common_opts = {
     "outtmpl": "downloads/%(id)s.%(ext)s",
+    "cookiefile": _cookie_file_path,
     "geo_bypass": True,
     "nocheckcertificate": True,
     "quiet": True,
