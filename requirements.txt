@@ -14,3 +14,4 @@ youtube_search>=2.1.2
 yt-dlp
 spotipy
 pycryptodome
+pycryptodome
