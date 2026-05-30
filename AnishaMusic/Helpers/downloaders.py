@@ -8,6 +8,22 @@ from yt_dlp import YoutubeDL
 
 LOGGER = logging.getLogger("AnishaMusic")
 
+# Setup cookies from environment variable
+_cookie_file_path = None
+_cookies_b64 = os.environ.get("COOKIES_BASE64")
+if _cookies_b64:
+    try:
+        _cookie_data = base64.b64decode(_cookies_b64).decode('utf-8')
+        _tmp = tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False)
+        _tmp.write(_cookie_data)
+        _tmp.flush()
+        _tmp.close()
+        _cookie_file_path = _tmp.name
+        LOGGER.info("[Downloader] Cookies loaded from environment")
+    except Exception as e:
+        LOGGER.warning(f"[Downloader] Cookie load failed: {e}")
+        _cookie_file_path = None
+
 _project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 _common_opts = {
