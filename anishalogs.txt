@@ -10377,3 +10377,10 @@ yt_dlp.utils.DownloadError: ERROR: [youtube+GetPOT] jEdwENWhOwg: Sign in to conf
         "volume": 100
     }
 }
+[30-May-26 14:37:12 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Alakh Niranjan
+[30-May-26 14:37:12 - INFO] - AnishaMusic - [Saavn] Searching: Alakh Niranjan
+[30-May-26 14:37:13 - INFO] - AnishaMusic - [Saavn] Downloading: Alakh Niranjan
+[30-May-26 14:37:17 - INFO] - AnishaMusic - [Saavn] Converted to opus: downloads/saavn_XBB7TAwU.opus
+[30-May-26 14:37:17 - INFO] - AnishaMusic - [Saavn] Downloaded: downloads/saavn_XBB7TAwU.opus
+[30-May-26 14:37:18 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:38:59 - ERROR] - AnishaMusic - Anisha Music Bot Stopped.
