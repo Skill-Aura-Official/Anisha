@@ -186,12 +186,12 @@ async def resolve_and_download(title: str, videoid: str, stream_type: str):
     return await asyncio.to_thread(_resolve_and_download, title, videoid, stream_type)
 
 async def saavn_or_youtube(url: str, title: str = "", videoid: str = "", stream_type: str = "audio") -> str:
-    """Try JioSaavn first using title, fall back to YouTube URL if it fails."""
-    from AnishaMusic.Helpers.saavn import saavn_download
-    search_query = title if title else url
+    """Try YouTube first, fall back to JioSaavn if it fails."""
     try:
-        LOGGER.info(f"[Downloader] Trying JioSaavn for: {search_query}")
-        return await saavn_download(search_query)
-    except Exception as e:
-        LOGGER.warning(f"[Downloader] JioSaavn failed: {e}, falling back to YouTube")
+        LOGGER.info(f"[Downloader] Trying YouTube for: {title or url}")
         return await audio_dl(url)
+    except Exception as e:
+        LOGGER.warning(f"[Downloader] YouTube failed: {e}, falling back to JioSaavn")
+        from AnishaMusic.Helpers.saavn import saavn_download
+        search_query = title if title else url
+        return await saavn_download(search_query)

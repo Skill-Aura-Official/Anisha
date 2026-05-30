@@ -10130,3 +10130,250 @@ yt_dlp.utils.DownloadError: ERROR: [youtube+GetPOT] jEdwENWhOwg: Sign in to conf
         "volume": 100
     }
 }
+[30-May-26 14:18:18 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:18:18 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1034812723,
+        "user_id": 8399655310,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[30-May-26 14:18:35 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:18:35 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2094653656,
+        "user_id": 8700049876,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[30-May-26 14:18:52 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:18:52 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2094653656,
+        "user_id": 8700049876,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[30-May-26 14:18:59 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:18:59 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2094653656,
+        "user_id": 8700049876,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[30-May-26 14:19:20 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:19:20 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 1034812723,
+        "user_id": 8399655310,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[30-May-26 14:19:31 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:19:31 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2094653656,
+        "user_id": 8700049876,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[30-May-26 14:20:41 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:20:41 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2094653656,
+        "user_id": 8700049876,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[30-May-26 14:23:19 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:23:19 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2094653656,
+        "user_id": 8700049876,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[30-May-26 14:23:30 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:23:30 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2094653656,
+        "user_id": 8700049876,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 200
+    }
+}
+[30-May-26 14:24:09 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:24:09 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": 2094653656,
+        "user_id": 8700049876,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[30-May-26 14:33:14 - INFO] - AnishaMusic - [Downloader] Trying JioSaavn for: Alakh Niranjan
+[30-May-26 14:33:14 - INFO] - AnishaMusic - [Saavn] Searching: Alakh Niranjan
+[30-May-26 14:33:14 - INFO] - AnishaMusic - [Saavn] Downloading: Alakh Niranjan
+[30-May-26 14:33:18 - INFO] - AnishaMusic - [Saavn] Converted to opus: downloads/saavn_XBB7TAwU.opus
+[30-May-26 14:33:18 - INFO] - AnishaMusic - [Saavn] Downloaded: downloads/saavn_XBB7TAwU.opus
+[30-May-26 14:33:19 - DEBUG] - pytgcalls - FullChat cache miss for -1003882113270
+[30-May-26 14:33:19 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:33:31 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:33:31 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.UPDATED",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": true,
+        "muted_by_admin": true,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -2068745368,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
+[30-May-26 14:33:36 - DEBUG] - pytgcalls - GetParticipant cache hit for -1003882113270
+[30-May-26 14:33:36 - DEBUG] - pytgcalls - Received: {
+    "_": "UpdatedGroupCallParticipant",
+    "action": "Action.LEFT",
+    "chat_id": -1003882113270,
+    "participant": {
+        "_": "GroupCallParticipant",
+        "muted": false,
+        "muted_by_admin": false,
+        "presentation_info": null,
+        "raised_hand": false,
+        "screen_sharing": false,
+        "source": -2068745368,
+        "user_id": 8131173148,
+        "video": false,
+        "video_camera": false,
+        "video_info": null,
+        "volume": 100
+    }
+}
