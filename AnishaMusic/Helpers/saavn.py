@@ -62,9 +62,33 @@ def get_saavn_url(song_id: str) -> str:
         LOGGER.error(f"[Saavn] Get URL failed: {e}")
         return None
 
+def clean_query(query: str) -> str:
+    """Clean search query for better JioSaavn results."""
+    import re
+    # Remove YouTube URL if passed
+    if "youtube.com" in query or "youtu.be" in query:
+        return query
+    # Remove special characters and pipe symbols
+    query = re.sub(r'[|►•]', ' ', query)
+    # Remove content in brackets
+    query = re.sub(r'\[.*?\]|\(.*?\)', '', query)
+    # Remove extra spaces
+    query = ' '.join(query.split())
+    # Limit to first 5 words for better search
+    words = query.split()
+    if len(words) > 5:
+        query = ' '.join(words[:5])
+    return query.strip()
+
 def _download_saavn(query: str) -> str:
-    LOGGER.info(f"[Saavn] Searching: {query}")
-    song = search_saavn(query)
+    cleaned = clean_query(query)
+    LOGGER.info(f"[Saavn] Searching: {cleaned}")
+    song = search_saavn(cleaned)
+    if not song:
+        # Try with even shorter query
+        short_query = ' '.join(cleaned.split()[:3])
+        LOGGER.info(f"[Saavn] Retrying with: {short_query}")
+        song = search_saavn(short_query)
     if not song:
         raise Exception("No results found on JioSaavn")
 
