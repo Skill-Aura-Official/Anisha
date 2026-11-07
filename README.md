@@ -2,7 +2,7 @@
 
 ![Anisha Music Bot](bot_avatar.png)
 
-Anisha Music Bot is a premium, high-performance Telegram music bot designed to stream high-quality audio and video directly into group video chats. Powered by Pyrogram and PyTgCalls.
+Anisha Music Bot contains Telegram group-call audio/video streaming workflows. Actual playback quality, latency and supported media depend on the configured services and have not been measured in this documentation review. Powered by Pyrogram and PyTgCalls.
 
 ---
 
@@ -42,7 +42,8 @@ Anisha Music Bot is a premium, high-performance Telegram music bot designed to s
 ### Steps
 1. **Clone the repository and enter the directory**:
    ```bash
-   cd "Music Bot"
+   git clone https://github.com/Skill-Aura-Official/Anisha.git
+   cd Anisha
    ```
 2. **Install dependencies**:
    ```bash
@@ -54,7 +55,7 @@ Anisha Music Bot is a premium, high-performance Telegram music bot designed to s
    API_ID=your_api_id
    API_HASH=your_api_hash
    BOT_TOKEN=your_bot_token
-   SESSION_NAME=your_assistant_session_string
+   SESSION=your_assistant_session_string
    OWNER_ID=your_telegram_user_id
    LOG_CHANNEL_ID=your_log_channel_id
    ```
@@ -110,3 +111,9 @@ The project contains `heroku.yml` and `Procfile` configured to use the `anisha` 
 - `/skip` or `/next` - Skip current track to the next queued item.
 - `/stop` or `/end` - Stop the active stream and clear the queue.
 - `/queue` - Show currently queued tracks.
+
+## Configuration and verification boundaries
+
+`config.py` reads `SESSION`, not `SESSION_NAME`. Configure authorized API credentials, BOT_TOKEN, OWNER_ID, LOG_CHANNEL_ID and SUDO_USERS explicitly; do not inherit example/default identities. Keep sessions, cookies and local JSON state private and preserve them across restarts. The runner and Procfile use `bash anisha`; direct module startup uses `python -m AnishaMusic`. Docker currently selects Python 3.9, while dependencies are not fully pinned, so clean dependency compatibility and hosted startup remain unverified. No Telegram message, voice call or deployment was attempted. Existing contributor credit is preserved; no licence is created by this README.
+
+Python syntax was inspected without importing or running modules; results do not establish dependency compatibility or authenticated runtime behavior.
